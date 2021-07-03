@@ -9,6 +9,6 @@ class Pessoa {
 fun main() {
 
     val jether = Pessoa()
-    println("Nome " + jether.nome + " Cpf: " + jether.cpf )
+    println("Nome " + jether.nome + " Cpf:  " + jether.cpf )
 
 }
