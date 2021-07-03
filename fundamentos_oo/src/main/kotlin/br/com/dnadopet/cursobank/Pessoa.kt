@@ -3,7 +3,7 @@ package br.com.dnadopet.cursobank
 class Pessoa {
     var nome:String = "André Luiz"
     var cpf:String = "123.456.789-01"
-
+    private set
 }
 
 fun main() {
