@@ -8,6 +8,8 @@ class PessoaInnerClass {
             var rua:String ="Rua Monte Castelo"
             var numero:String="Número 123"
         }
+
+
 }
 
 fun main() {
