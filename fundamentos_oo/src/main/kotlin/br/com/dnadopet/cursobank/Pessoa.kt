@@ -1,15 +1,8 @@
 package br.com.dnadopet.cursobank
 
-class Pessoa {
-    var nome: String = "André Luiz"
-        private set
-    var cpf: String = "123.456.789-01"
-        private set
-}
+abstract class Pessoa (
+    val nome: String = "André Luiz",
+    val cpf: String = "123.456.789-01"
+)
 
-fun main() {
 
-    val jether = Pessoa()
-    println("Nome " + jether.nome + "   Cpf:  " + jether.cpf )
-
-}
