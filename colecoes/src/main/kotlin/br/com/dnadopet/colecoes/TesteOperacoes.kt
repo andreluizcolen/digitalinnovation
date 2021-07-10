@@ -24,5 +24,17 @@ fun main() {
     println(salariosFilterMaior2500)
     println("***************************")
 
+//    Quantidade de salarios em um intervalo
+    println(salarios.count{it in 1000.0..3000.0 })
+    println("***************************")
+
+//    Busca um determinado valor
+    println(salarios.find { it == 2250.00 })
+    println(salarios.find { it == 2259.99 })
+    println("***************************")
+
+//    Busca qualquer aonde a expressão eh valida. Retorna true ou false
+    println(salarios.any { it == 1000.00 })
+    println(salarios.any { it == 8000.00 })
 
 }
