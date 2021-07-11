@@ -2,9 +2,9 @@ package br.com.dnadopet.colecoes
 
 fun main() {
 
-    val joao  = funcionario("Joao", 5000.00, "PJ")
-    val pedro = funcionario("Pedro", 2000.00, "CLT")
-    val maria = funcionario("Maria", 3000.00, "PJ")
+    val joao  = Funcionario("Joao", 5000.00, "PJ")
+    val pedro = Funcionario("Pedro", 2000.00, "CLT")
+    val maria = Funcionario("Maria", 3000.00, "PJ")
 
 
     val funcionarios = listOf(joao, pedro, maria)
@@ -29,15 +29,3 @@ fun main() {
         .forEach  { println(it) }
 }
 
-data class funcionario(
-    val nome: String,
-    val salario: Double,
-    val contrato: String
-    ){
-    override fun toString(): String {
-        return """
-            Nome    :   $nome
-            Salário :   $salario
-        """.trimIndent()
-    }
-}
