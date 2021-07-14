@@ -15,11 +15,11 @@ fun main() {
     val resultado = funcionarios1.union(funcionarios2)
     resultado.forEach{println(it)}
 
-    println("******************* Subtrair")
+    println("******************* Subtrair Conjunto 01 - Conjunto 02")
     val ressultSubstract = funcionarios3.subtract(funcionarios2)
     ressultSubstract.forEach{println(it)}
 
-    println("******************* Intersect")
+    println("******************* Intersect Retorna o que tem de comum nos dois conjuntos ")
     val ressultIntersect = funcionarios3.intersect(funcionarios2)
     ressultIntersect.forEach{println(it)}
 
